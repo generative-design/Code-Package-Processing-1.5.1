@@ -1,0 +1,55 @@
+GENERATIVEDESIGN CODE PACKAGE 1.0.3 - 28 May 2010
+
+Bug fixes:
+
+P_2_3_5_01_TABLET: 
+Corrected the angle so that pen and graphic corresponds.
+M_2_6_01_TOOL, M_2_6_01_TOOL_TABLET:
+Removed error "Can't find ComponentListener"
+
+Changes:
+
+M_2_6_01_TOOL, M_2_6_01_TOOL_TABLET:
+Added possibility to export and import the points drawn.
+
+Changed the fonts in almost every sketch that uses fonts. 
+ 
+----------------------------------------------------------------
+
+
+GENERATIVEDESIGN CODE PACKAGE 1.0.2 - 15 February 2010
+
+Bug fixes:
+
+M_1_5_03_TOOL, M_1_5_04_TOOL, M_1_6_02_TOOL, M_2_5_02_TOOL,
+M_2_6_01_TOOL, M_2_6_01_TOOL_TABLET, M_3_4_01_TOOL, 
+M_3_4_03_TOOL, M_4_3_01_TOOL, M_4_4_01_TOOL, M_6_4_01_TOOL:
+Fixed problems with expanding the menu after exporting a high 
+resolution image.
+
+Changes:
+
+M_6_4_01_TOOL: Changed starting article to "Design". Completed
+interaction header.
+
+
+----------------------------------------------------------------
+
+
+GENERATIVEDESIGN CODE PACKAGE 1.0.1 - 13 November 2009
+
+Bug fixes:
+
+M_2_6_01_TOOL_TABLET: Import of the wrong library. Due to some
+strange conflicts of the function selectInput() and the bang
+button in controlP5 for loading an image (probably event handling 
+order) the bang button was removed. Loading of the image can now
+be done with the key 'o'.
+
+
+----------------------------------------------------------------
+
+
+GENERATIVEDESIGN CODE PACKAGE 1.0 - 19 October 2009
+
+Initial release of the code package.
