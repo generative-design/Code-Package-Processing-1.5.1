@@ -49,12 +49,12 @@ void draw(){
 
 void mouseMoved(){
   background(255);
-  textSize((mouseX-width/2)*5+1);
+  textSize(abs(mouseX-width/2)*5+1);
   text(letter, width/2, mouseY);
 }
 
 void mouseDragged(){
-  textSize((mouseX-width/2)*5+1);
+  textSize(abs(mouseX-width/2)*5+1);
   text(letter, width/2, mouseY);
 }
 
